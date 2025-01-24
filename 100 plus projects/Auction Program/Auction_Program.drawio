@@ -1,0 +1,68 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0" version="26.0.5">
+  <diagram name="Page-1" id="xTlok3AxpxO1oNNCYed9">
+    <mxGraphModel dx="1368" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HP2SRJE2-xpIm91ztSso-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HP2SRJE2-xpIm91ztSso-2" target="HP2SRJE2-xpIm91ztSso-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HP2SRJE2-xpIm91ztSso-2" value="Display Logo from art.py" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HP2SRJE2-xpIm91ztSso-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HP2SRJE2-xpIm91ztSso-5" target="HP2SRJE2-xpIm91ztSso-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HP2SRJE2-xpIm91ztSso-5" value="&lt;div&gt;AUCTION ITEM&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HP2SRJE2-xpIm91ztSso-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HP2SRJE2-xpIm91ztSso-7" target="HP2SRJE2-xpIm91ztSso-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HP2SRJE2-xpIm91ztSso-7" value="Ask for name input" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HP2SRJE2-xpIm91ztSso-17" value="Find the highest bid and declare them winner" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HP2SRJE2-xpIm91ztSso-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HP2SRJE2-xpIm91ztSso-31" target="HP2SRJE2-xpIm91ztSso-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HP2SRJE2-xpIm91ztSso-31" value="START" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HP2SRJE2-xpIm91ztSso-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HP2SRJE2-xpIm91ztSso-33" target="HP2SRJE2-xpIm91ztSso-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HP2SRJE2-xpIm91ztSso-33" value="Ask for Bid Price input" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HP2SRJE2-xpIm91ztSso-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HP2SRJE2-xpIm91ztSso-35" target="HP2SRJE2-xpIm91ztSso-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HP2SRJE2-xpIm91ztSso-35" value="Addition of Name and Bid into a dictionary" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HP2SRJE2-xpIm91ztSso-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HP2SRJE2-xpIm91ztSso-37" target="HP2SRJE2-xpIm91ztSso-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HP2SRJE2-xpIm91ztSso-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HP2SRJE2-xpIm91ztSso-37" target="HP2SRJE2-xpIm91ztSso-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HP2SRJE2-xpIm91ztSso-37" value="Would you like to place another bid?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="610" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="HP2SRJE2-xpIm91ztSso-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HP2SRJE2-xpIm91ztSso-40" target="HP2SRJE2-xpIm91ztSso-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HP2SRJE2-xpIm91ztSso-40" value="&lt;div&gt;Clear the Screen&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
