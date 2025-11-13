@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OLX Listings</title>
+
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column; /* stack search bar above cards */
+        align-items: center;
+        background: #f9f9f9;
+        padding: 30px 20px;
+    }
+
+    #searchInput {
+        width: 300px;
+        padding: 10px;
+        margin-bottom: 30px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        font-size: 16px;
+    }
+
+    #listings {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    .card {
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 20px;
+        width: 300px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+    }
+
+    .card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+
+    .card h2 {
+        font-size: 1.3em;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .card p {
+        margin: 5px 0;
+        text-align: center;
+    }
+
+    .price {
+        color: green;
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+  </style>
+</head>
+
+<body>
+  <input type="text" id="searchInput" placeholder="Search items...">
+
+  <div id="listings">
+    {% for item in items %}
+      <div class="card">
+        <img src="{{ item.img }}" alt="{{ item.title }}">
+        <h2>{{ item.title }}</h2>
+        <p class="price">{{ item.price }}</p>
+        <p>{{ item.desc }}</p>
+      </div>
+    {% endfor %}
+  </div>
+
+  <script>
+    const searchInput = document.getElementById("searchInput");
+    searchInput.addEventListener("keyup", function() {
+      const filter = searchInput.value.toLowerCase();
+      const cards = document.querySelectorAll(".card");
+      cards.forEach(card => {
+        const text = card.textContent.toLowerCase();
+        card.style.display = text.includes(filter) ? "" : "none";
+      });
+    });
+  </script>
+</body>
+</html>
